@@ -2,23 +2,28 @@
 
 📃 How to Install RetroPie on Le Potato Libre Computer Board (AML-S905X-CC)
 
-![Le-Potato](https://github.com/sourceduty/Retropie_Le_Potato/assets/123030236/dcfa9003-6d55-4cff-9dc4-4c12ef383b45)
+![Le-Potato](https://github.com/sourceduty/Retropie_Le_Potato/assets/123030236/b8224cd1-d865-43ce-9bb9-11d5cc39b233)
 
 Step 1:
 
 Download belenaEtcher from: https://www.balena.io/etcher
+
 Download image file from:
 http://share.loverpi.com/board/libre-computer-project/libre-computer-board-aml-s905x-cc/image/retropie/
+
 Format your SD card and use belenaEtcher to write the image file to the SD card.
 
 Step 2:
 
 Hook up the Libre board to ethernet, power and then run:
 sudo apt install rapidjson-dev
+
 Wait for this to install for 2 minutes and then install emulationstation:
 sudo ~/RetroPie-Setup/retropie_setup.sh
+
 Go to: Manage Packages > Manage core packages > Emulationstation > Install from source
 This will take 20 minutes to install.
+
 Reboot after install from the emulationstation menu.
 Power off and remove the ethernet cable.
 
